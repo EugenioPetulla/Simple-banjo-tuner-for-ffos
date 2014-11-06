@@ -47,7 +47,7 @@
 
         tuner.start(function(note) {
             $('#note').text(note);
-            if ( (note=="G4") || (note=="D3") || (note=="G3") || (note=="B3") || (note=="D4") ) {
+            if ( (note=="G4") || (note=="D3") || (note=="G3") || (note=="C3") || (note=="D4") ) {
             $("#note").toggleClass("green", true);
             }
             else {
@@ -68,11 +68,11 @@
   <nav>
     <h2>Five strings</h2>
     <ul>
-      <li><a href="#content">Open G</a></li>
+      <li><a href="index.html">Open G</a></li>
       <li><a href="doublec.html">Double C</a></li>
       <li><a href="dropc.html">Drop C</a></li>
       <li><a href="dtuning.html">D Tuning</a></li>
-      <li><a href="gmodal.html">G Modal</a></li>
+      <li><a href="#content">G Modal</a></li>
       <li><a href="longneck.html">Longneck</a></li>
     </ul>
     <h2>Tenor</h2>
@@ -100,7 +100,7 @@
     <h1>Five Strings</h1>
   </header>
   <header>
-    <h2>Open G</h2>
+    <h2>G Modal</h2>
   </header>
   <div role="main">
 	<div class="hero">Play the string you want to tune and match green color or tap the button to reproduce the correct sound.</div>
@@ -118,8 +118,8 @@
   		<source src="sounds/G3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="B3">
-  		<source src="sounds/B3.ogg" type="audio/ogg" />
+		<audio id="C3">
+  		<source src="sounds/C3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
 		<audio id="D4">
@@ -130,7 +130,7 @@
   		<button type="button" onclick="document.getElementById('G4').play()">G4 (SOL)</button>
 		<button type="button" onclick="document.getElementById('D3').play()">D3 (RE)</button>
 		<button type="button" onclick="document.getElementById('G3').play()">G3 (SOL)</button>
-		<button type="button" onclick="document.getElementById('B3').play()">B3 (SI)</button>
+		<button type="button" onclick="document.getElementById('C3').play()">C3 (DO)</button>
 		<button type="button" onclick="document.getElementById('D4').play()">D4 (RE)</button>
   	</div>
   </div>

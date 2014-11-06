@@ -47,7 +47,7 @@
 
         tuner.start(function(note) {
             $('#note').text(note);
-            if ( (note=="G4") || (note=="D3") || (note=="G3") || (note=="B3") || (note=="D4") ) {
+            if ( (note=="F#4") || (note=="D3") || (note=="F#3") || (note=="A3") || (note=="D4") ) {
             $("#note").toggleClass("green", true);
             }
             else {
@@ -68,10 +68,10 @@
   <nav>
     <h2>Five strings</h2>
     <ul>
-      <li><a href="#content">Open G</a></li>
+      <li><a href="index.html">Open G</a></li>
       <li><a href="doublec.html">Double C</a></li>
       <li><a href="dropc.html">Drop C</a></li>
-      <li><a href="dtuning.html">D Tuning</a></li>
+      <li><a href="#content">D Tuning</a></li>
       <li><a href="gmodal.html">G Modal</a></li>
       <li><a href="longneck.html">Longneck</a></li>
     </ul>
@@ -100,26 +100,26 @@
     <h1>Five Strings</h1>
   </header>
   <header>
-    <h2>Open G</h2>
+    <h2>D Tuning</h2>
   </header>
   <div role="main">
 	<div class="hero">Play the string you want to tune and match green color or tap the button to reproduce the correct sound.</div>
   <p id="note" class="green"> </p>
 	<div class="fretboard">
-		<audio id="G4">
-  		<source src="sounds/G4.ogg" type="audio/ogg" />
+		<audio id="F#4">
+  		<source src="sounds/F#4.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
 		<audio id="D3">
   		<source src="sounds/D3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="G3">
-  		<source src="sounds/G3.ogg" type="audio/ogg" />
+		<audio id="F#3">
+  		<source src="sounds/F#3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="B3">
-  		<source src="sounds/B3.ogg" type="audio/ogg" />
+		<audio id="A3">
+  		<source src="sounds/A3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
 		<audio id="D4">
@@ -127,10 +127,10 @@
   		Your browser does not support the audio tag.
 		</audio>
 		<!-- Start Button Section -->
-  		<button type="button" onclick="document.getElementById('G4').play()">G4 (SOL)</button>
+  		<button type="button" onclick="document.getElementById('F#4').play()">F#4 (FA#)</button>
 		<button type="button" onclick="document.getElementById('D3').play()">D3 (RE)</button>
-		<button type="button" onclick="document.getElementById('G3').play()">G3 (SOL)</button>
-		<button type="button" onclick="document.getElementById('B3').play()">B3 (SI)</button>
+		<button type="button" onclick="document.getElementById('F#3').play()">F#3 (FA#)</button>
+		<button type="button" onclick="document.getElementById('A3').play()">A3 (LA)</button>
 		<button type="button" onclick="document.getElementById('D4').play()">D4 (RE)</button>
   	</div>
   </div>

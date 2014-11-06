@@ -24,8 +24,8 @@
   "permissions": {
     "audio-capture": {
       "description": "To capture the sound of the strings from the microphone."
-      }
-    },
+    }
+  },
   "locales": {
     "en": {
       "name": "Simple Banjo Tuner",
