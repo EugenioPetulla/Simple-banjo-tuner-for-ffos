@@ -1,4 +1,4 @@
 Simple-banjo-tuner-for-ffos
 ===========================
-A Simple App for tuning your banjo everywhere!
-----------------------------------------------  
+A Simple HTML App for tuning your banjo everywhere!
+--------------------------------------------------- 
