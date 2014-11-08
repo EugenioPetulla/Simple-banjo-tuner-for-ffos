@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<!--Copyright 2014 Eugenio Petullà-->
+<!--Copyright 2014 Eugenio Petullà and Federico Venditozzi-->
 <!--This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -47,7 +47,7 @@
 
         tuner.start(function(note) {
             $('#note').text(note);
-            if ( (note=="G3") || (note=="G4") || (note=="D4") || (note=="D5") || (note=="C5") ) {
+            if ( (note=="G2") || (note=="D3") || (note=="A3") || (note=="E3") ) {
             $("#note").toggleClass("green", true);
             }
             else {
@@ -79,16 +79,11 @@
     <ul>
       <li><a href="standardtenor.html">Standard</a></li>
       <li><a href="#content">Irsih Tuning</a></li>
-      <li><a href="chicagotenor.html">Chicago Tuning</a></li>
     </ul>
     <h2>Plectrum</h2>
     <ul>
       <li><a href="standardplectrum.html">Standard</a></li>
       <li><a href="chicagoplectrum.html">Chicago Tuning</a></li>
-    </ul>
-    <h2>6/12 Strings</h2>
-    <ul>
-      <li><a href="standard6.html">Standard</a></li>
     </ul>
   </nav>
 </section>
@@ -106,32 +101,27 @@
 	<div class="hero">Play the string you want to tune and match green color or tap the button to reproduce the correct sound.</div>
   <p id="note" class="green"> </p>
 	<div class="fretboard">
-		<audio id="G3SG">
-  		<source src="sounds/G3.ogg" type="audio/ogg" />
+		<audio id="G2">
+  		<source src="sounds/G2.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="D4SG">
-  		<source src="sounds/D4.ogg" type="audio/ogg" />
+		<audio id="D3">
+  		<source src="sounds/D3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="G4SG">
-  		<source src="sounds/G4.ogg" type="audio/ogg" />
+		<audio id="A3">
+  		<source src="sounds/A3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
-		<audio id="C5SG">
-  		<source src="sounds/C5.ogg" type="audio/ogg" />
-  		Your browser does not support the audio tag.
-		</audio>
-		<audio id="D5SG">
-  		<source src="sounds/D5.ogg" type="audio/ogg" />
+		<audio id="E3">
+  		<source src="sounds/E3.ogg" type="audio/ogg" />
   		Your browser does not support the audio tag.
 		</audio>
 		<!-- Start Button Section -->
-  		<button type="button" onclick="document.getElementById('G3SG').play()">G3 (SOL)</button>
-		<button type="button" onclick="document.getElementById('D4SG').play()">D4 (RE)</button>
-		<button type="button" onclick="document.getElementById('G4SG').play()">G4 (SOL)</button>
-		<button type="button" onclick="document.getElementById('C5SG').play()">C5 (DO)</button>
-		<button type="button" onclick="document.getElementById('D5SG').play()">D5 (RE)</button>
+  		<button type="button" onclick="document.getElementById('G2').play()">G2 (SOL)</button>
+		<button type="button" onclick="document.getElementById('D3').play()">D3 (RE)</button>
+		<button type="button" onclick="document.getElementById('A3').play()">A3 (LA)</button>
+		<button type="button" onclick="document.getElementById('E3').play()">E3 (MI)</button>
   	</div>
   </div>
 </section>
